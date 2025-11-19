@@ -1,0 +1,85 @@
+html {
+    overflow-x: hidden;
+}
+
+body, input {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+}
+
+h1, h2, h3 {
+    font-family: "Playfair Display", serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hat {
+    padding: 40px 120px;
+    color: #fff;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative;    
+}
+
+.hat::before {
+    content: "";
+    position: absolute;
+    top: 40px;  
+    left: 120px;
+    width: 170px;   
+    height: 170px;    
+    background-image: url('logo.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.hat::after {
+    content: "";
+    position: absolute;
+    top: 40px;
+    right: 200px;
+    width: 35px;
+    height: 35px;
+    background-image: url(burger.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+.hat .hat-heading {
+    margin-top: 150px;
+    font-weight: 700;
+    font-size: 66px;
+    max-width: 770px;
+    margin-bottom: 50px;
+    line-height: 1.1;
+}
+
+.hat-nav-item {
+    display: flex;
+    justify-content: center;
+    gap: 40px; 
+}
+
+.hat-nav-item .hat-item {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0,5px;
+    padding: 0px 10px;
+}
+
+
+
+
+
