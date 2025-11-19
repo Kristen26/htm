@@ -2,9 +2,9 @@
 <html rang="ru">
 
 <head>
-<meta charset="utf-8">
-<meta name="vievport" content="width=divice-width, inital-scale=1.0">
-<link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="vievport" content="width=divice-width, inital-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -17,16 +17,13 @@
                 </nav>
                 
                 <h1 class="hat-heading">Открой для себя новую <br> Ирландию</h1>
-                <p>Авторские туры по экзотическим уголкам от Ивана Иванова</p>
+                <p class="hat-subtitle">Авторские туры по экзотическим уголкам от Ивана Иванова</p>
 
-                <div className="hero-buttons">
-                    <button className="hero-btn">Оставить заявку</button>
-                    <button className="hero-btn-play">
-                    <img src = {playSvg}></img></button>
-                    <span className="hero-btn-text">Посмотрите видео-отчет 2018-2019</span>
+                <div class="hat-buttons">
+                    <button class="hat-btn">Оставить заявку</button>
+                    <button class="hat-btn-play"><img src = "./image/play.svg"></img></button>
+                    <span class="hat-btn-text">Посмотрите видео-отчет 2018-2019</span>
                 </div>
-
-                <p>Подписывайтесь в соцсетях</p>
             
                 <p><b>02</b></p>
                 <p>Водопады Ирландии</p>
@@ -36,6 +33,14 @@
 
                 <p><b>04</b></p>
                 <p>Неизведанная Норвегия</p>
+
+                <div class="hero-social">
+                    <span class="hero-social-title">Подписывайтесь в соцсетях</span>
+                    <a href="#" class="hero-social-link"><img src={youtube}></img></a>
+                    <a href="#" class="hero-social-link"><img src={facebook}></img></a>
+                    <a href="#" class="hero-social-link"><img src={twitter}></img></a>
+                    <a href="#" class="hero-social-link"><img src={vk}></img></a>
+                </div>
         </div>
       
     </header>
