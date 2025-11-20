@@ -85,8 +85,14 @@ a {
     font-size: 23px;
     max-width: 400px;
     margin-top: 0;
-    margin-bottom: 70px;
+    margin-bottom: 45px;
     line-height: 1.4;
+}
+
+.hat-buttons{
+    display: flex;
+    flex-flow: row nowrap;
+    column-gap: 20px;
 }
 
 .hat-btn {
@@ -99,6 +105,7 @@ a {
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     transition: all 0.4s ease;
+    cursor: pointer;
 }
 
 
@@ -110,4 +117,22 @@ a {
 .hat-btn:active {
     background-color: rgb(176, 89, 27);
     transform: scale(0.98);
+}
+
+.hat-btn-play {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.hat-btn-play:active {
+    transform: scale(0.97);
+}
+
+.hat-buttons .hat-btn-text {
+    align-self: center;
+    max-width: 100px;
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 16px;
+    line-height: 1.3;
 }
