@@ -226,3 +226,155 @@ a {
     cursor: pointer;
     transform: scale(1.05);
 }
+
+.card-tours {
+    display: flex;
+    padding: 150px;
+    padding-left: 160px;
+    column-gap: 40px;
+}
+
+.card-date {
+    width: 730px;
+    height: 375px;
+    background-image: url("./image/card-4.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    border-radius: 16px;
+    padding: 45px;
+    color: white;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card-in-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 300px;
+    font-size: 18px;
+}
+
+.card-text {
+    width: 100%;
+    max-width: 500px;
+}
+
+.tours {
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.discription {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.button-watch {
+    font-size: 20px;
+    font-weight: 600;
+    width: 265px;
+    height: 75px;
+    border-radius: 38px;
+    color: #DA8344;
+    border: 1px solid #DA8344;
+    transition: .1s;
+}
+
+.button-watch:hover {
+    background-color: #DA8344;
+    color: #fff;
+}
+
+
+.block-prime-register {
+    background-image: url("./image/form-background.png");
+    width: 100%;
+    height: 500px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    column-gap: 90px;
+    flex-wrap: nowrap;
+    justify-content: end;
+    align-items: center;
+}
+
+.block-number, .block-name {
+    padding: 0 25px;
+    width: 220px;
+    height: 65px;
+    font-size: 18px;
+    border-radius: 38px;
+    color: #9FA6AB;
+    border: 1px solid #9FA6AB;
+    margin-bottom: 30px;
+}
+
+.block-register-title {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.block-register-subtitle {
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.4;
+}
+
+.block_all {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    width: 250px;
+    max-width: 315px;
+}
+
+.block-number {
+    margin-bottom: 50px;
+}
+
+.block-submit {
+    width: 220px;
+    height: 65px;
+    border-radius: 38px;
+    background-color: #DD9428;
+    border-color: azure;
+    color: #333111;
+    font-weight: 600;
+    font-size: 18px;
+    transition: all 0.4s ease;
+    margin-bottom: 10px;
+}
+
+.block-request {
+    margin-right: 100px;
+}
+
+.block-agreement {
+    display: block;
+    font-size: 11px;
+    text-align: center;
+    max-width: 240px;
+    line-height: 1.3;
+}
+
+.block-application {
+    margin-bottom: 50px;
+}

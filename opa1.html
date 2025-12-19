@@ -20,7 +20,9 @@
                 <p class="hat-subtitle">Авторские туры по экзотическим уголкам от Ивана Иванова</p>
 
                 <div class="hat-buttons">
-                    <button class="hat-btn">Оставить заявку</button>
+                    <form action="https://horo.mail.ru/" target="_blank">
+                        <button class="hat-btn">Оставить заявку</button>
+                    </form>
                     <button class="hat-btn-play"><img src = "./image/play.svg"></img></button>
                     <span class="hat-btn-text">Посмотрите<br> видео-отчет<br> 2018-2019</span>
                 </div>
@@ -69,24 +71,38 @@
             </div>
     </header>
 
-    <h2 align="center">Посмотрите все направления туров</h2>
-
-    <p>Берега океанов и дикие пляжи с редкими породами деревьев. 
-    Местная архитектура и первозданный вид дикой природы</p>
-    <p>Смотреть все</p>
-    <p><b>10-24 апереля</b></p>
-    <p><b>Большое ущелье на осторовах Гавайи</b></p>
-
-    <h2 align="center">Оставьте заявку на бесплатную консультацию</h2>
-
-    <p>Мы перезвоним вам в ближайшее время</p>
-
-    <div style="display: flex; justify-content: space-between; align-items: center;">
-        <div><h2><em>Оставить заявку можно здесь:</em></h2></div>
-        <div><p>+7 ( _ _ _ ) _ _ _ - _ _ - _ _</p></div>
-        <div><p><i>Ваше имя</i></p></div>
+    <div class="card-tours">
+        <div class="card-date">
+            <p class="card-title">10-24</p>
+            <span class="card-subtitle">апреля</span>
+            <p class="card-in-text">Большое ущелье на осторовах Гавайи</p>
+        </div>
+        <div class="card-text">
+            <h2 class="tours">Посмотрите все направления туров</h2>
+            <p class="discription">Берега океанов и дикие пляжи с редкими породами деревьев. 
+            Местная архитектура и первозданный вид дикой природы</p>
+            <button class="button-watch">Смотреть все</button>
+        </div>
     </div>
-    <p>Нажимая кнопку, вы даете согласие на обработку персональных данных</p>
+    
+    <div class="block-prime-register">
+        <div class="block-reg">
+            <h2 class="block-register-title">Оставьте заявку <br> на бесплатную <br> консультацию</h2>
+            <p class="block-register-subtitle">Мы перезвоним вам в <br> ближайшее время</p>
+        </div>
+        
+        <div class="block-request">
+            <div class="block-application"><h2>Оставить заявку можно здесь:</h2></div>
+                <div class="block-all">
+                    <div class="block-number"><p>+7 ( _ _ _ ) _ _ _ - _ _ - _ _</p></div>
+                    <div class="block-name"><p>Ваше имя</p></div>
+                </div>
+                <button class="block-submit" type="submit">Отправить заявку</button>
+                <p class="block-agreement">Нажимая кнопку, вы даете согласие на <br> обработку персональных данных</p>
+        </div>
+    </div>
+
+
 
     <h2>Что пишут участники наших путешествий</h2>
 
