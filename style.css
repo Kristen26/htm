@@ -356,12 +356,22 @@ a {
     height: 65px;
     border-radius: 38px;
     background-color: #DD9428;
-    border-color: azure;
+    border: none;
     color: #333111;
     font-weight: 600;
     font-size: 18px;
     transition: all 0.4s ease;
     margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.block-submit:hover {
+    background-color: rgb(211, 118, 51);
+}
+
+.block-submit:active {
+    background-color: rgb(176, 89, 27);
+    transform: scale(0.98);
 }
 
 .block-request {
