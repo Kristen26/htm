@@ -290,6 +290,7 @@ a {
     width: 265px;
     height: 75px;
     border-radius: 38px;
+    background: white;
     color: #DA8344;
     border: 1px solid #DA8344;
     transition: .1s;
@@ -377,4 +378,110 @@ a {
 
 .block-application {
     margin-bottom: 50px;
+}
+
+.card-reviews {
+    display: flex;
+    padding: 150px;
+    padding-left: 160px;
+    column-gap: 40px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.card-reviews-relax {
+    width: 730px;
+    height: 375px;
+    background-image: url("./image/card-5.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-shrink: 0;
+    border-radius: 16px;
+    padding: 45px;
+    color: white;
+}
+
+.card-reviews-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.card-reviews-subtitle {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.card-reviews-in-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 300px;
+    font-size: 18px;
+}
+
+.card-reviews-text {
+    width: 100%;
+    max-width: 500px;
+}
+
+.reviews-tours {
+    font-size: 42px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    line-height: 1.2;
+}
+
+.reviews-discription {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.reviews-button-watch {
+    font-size: 20px;
+    font-weight: 600;
+    width: 265px;
+    height: 75px;
+    border-radius: 38px;
+    background: white;
+    color: #cd8f4d;
+    border: 1px solid #DA8344;
+    transition: .1s;
+}
+
+.reviews-button-watch:hover {
+    background-color: #DA8344;
+    color: #fff;
+}
+
+.footer {
+    padding: 50px 120px;
+    background-color: #F5F7FA;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.footer-links {
+    display: flex;
+    gap: 100px;
+    font-size: 14px;
+    color: #9CA3AF;
+    transition: color 0.2s;
+}
+
+.footer-links:hover {
+    color: #6B7280;
+}
+
+.social {
+    display: flex;
+    gap: 80px;
+    flex-direction: row;
 }
